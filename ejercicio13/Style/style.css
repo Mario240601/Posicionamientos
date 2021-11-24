@@ -1,0 +1,39 @@
+body{
+
+	border: solid 1px black;
+	background-image: url(../images/sala.jpeg);
+	background-repeat: no-repeat;
+	background-size: 1280px 1024px ;
+}
+#imagen{
+	background: black;
+	position: relative;
+	border: solid black 3px;
+	height: 100px ;
+	width: 1260px;
+	color: white;
+	text-align:center;
+
+}
+img{
+	vertical-align: middle;
+	position: absolute;
+	top: 290px;
+	left: 400px;
+	width: 450px;
+	height: 250px;
+	border: solid 3px black;
+}
+
+.contact{
+	transform: rotate(-90deg);
+	position:fixed;
+	top: 570px;
+	right: 0px;
+	position: all;
+	background-color:lightblue;
+	border:2px solid black;
+	}
+.borde{
+	border: solid 1px lightblue;
+}
